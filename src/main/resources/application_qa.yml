@@ -1,0 +1,17 @@
+# QA Profile Configuration
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+build:
+  version: "2.0"
+
+passenger:
+  message: "Welcome to Bus Ticket Booking app related qa APIs"
+  contactDetails:
+    name: "Sam -Qa Lead"
+    email: "sam@gmail.com"
+  onCallSupport:
+    - "(666)265-3765"
+    - "(666)734-8371"

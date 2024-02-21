@@ -1,0 +1,20 @@
+# Prod Profile Configuration
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "3.0"
+
+
+passenger:
+  message: "Welcome to Bus Ticket Booking app related prod APIs"
+  contactDetails:
+    name: "JaySai - Product Owner"
+    email: "jay@gmail.com"
+  onCallSupport:
+    - "(453)392-4829"
+    - "(236)734-8371"
+
+
